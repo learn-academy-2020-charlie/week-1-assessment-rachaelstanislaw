@@ -4,7 +4,7 @@ Answer the following questions. First, without external resources. Challenge you
 
 1. What is a function? Why would you use one?
 
-  Your answer:
+  Your answer: Block of code that executes specific tasks. Functions are reusable and can be used on multiple data sets.
 
   Researched answer:
 
@@ -14,13 +14,17 @@ Answer the following questions. First, without external resources. Challenge you
 
   Your answer:
 
+  .map() : runs through an array like a for loop but creates a new array. new array that's returned has been run through some logic and is the same length as the original
+
+  .filter() : filter is similar to .map but will only include elements that pass a certain criteria
+
   Researched answer:
 
 
 
 3. What is the difference between map/filter and a for loop?
 
-  Your answer:
+  Your answer: Higher order functions return their own array, are designed to go through an entire array. With for loops, you can specify how you'd like to iterate. For loop can be used on other data types besides arrays.
 
   Researched answer:
 
@@ -29,6 +33,8 @@ Answer the following questions. First, without external resources. Challenge you
 4. What is the difference between console.log() and return?
 
   Your answer:
+  console.log() : displays something to the developer. Displays what you tell it to.
+  return : used at the end of a function to define the output or result of the function. There can only be one return that runs in a function.
 
   Researched answer:
 
@@ -36,7 +42,7 @@ Answer the following questions. First, without external resources. Challenge you
 
 5. In regards to functions, what is an argument?
 
-  Your answer:
+  Your answer: Statement that is being tested inside of the function. Outside information that the function needs in order to run properly.
 
   Researched answer:
 
@@ -45,6 +51,8 @@ Answer the following questions. First, without external resources. Challenge you
 6. Give a brief description of proper pair programming techniques. What are the roles of each person?
 
   Your answer:
+  Driver: Operates the keyboard. Focuses on the code at hand.
+  Navigator: Watches, learns, talks, makes suggestions. Has a higher level scope of the challenge.
 
   Researched answer:
 
